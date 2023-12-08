@@ -2,7 +2,8 @@
   "name": "node-db4-project",
   "version": "1.0.0",
   "scripts": {
-    "resetdb" : "npx knex migrate:rollback && npx knex migrate:latest && npx knex seed:run"
+    "resetdb" : "npx knex migrate:rollback && npx knex migrate:latest && npx knex seed:run",
+    "server": "nodemon index.js"
   },
   "repository": {
     "type": "git",
